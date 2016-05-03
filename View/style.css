@@ -1,0 +1,135 @@
+.container {
+  max-width: 100%;
+  height: 100%;
+}
+section.section:last-child {
+  margin-bottom: 0;
+}
+
+.contenido {
+	margin: 40px;
+	border: 1px;
+	position: relative;
+	align: center;
+}
+
+.bgeffect{
+	border-radius: 25px;
+	background-color: rgba(48, 47, 47, 0.74);
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+
+
+.infoPanel{
+	font-size: 20px;
+	color: white;
+}
+
+section.section h2 {
+  margin-bottom: 0px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.section p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.section p:last-child {
+  margin-bottom: 0;
+}
+section.section.content {
+  
+}
+section.section.parallax {
+  height: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.opt-parallax-1{
+	background-image: url("../img/rio.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+section.opt-parallax-1 h3 {
+  color: gray;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.opt-parallax-2{
+	background-image: url("../img/froton-galeras.jpg");
+	height: 800px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+section.opt-parallax-3 h3 {
+  color: gray;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.opt-parallax-3{
+	background-image: url("../img/colorado.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+section.opt-parallax-2 h3 {
+  color: gray;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.section.parallax h3 {
+  color: white;
+  font-style: bold;
+  font-size: 48px;
+  margin-top: 30%;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 1.6);
+}
+
+section.section.parallax-1 {
+  background-image: url("../img/rio.jpg");
+}
+section.section.parallax-2 {
+  background-image: url("../img/france.jpg");
+  height: 800px;
+}
+section.section.parallax-3 {
+  background-image: url("../img/colorado.jpg");
+}
+ 
+@media all and (min-width: 1000px) {
+  section.section h2 {
+    font-size: 42px;
+  }
+  section.section p {
+    font-size: 20px;
+  }
+  section.section.parallax h1 {
+    font-size: 96px;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+  }
+}
+@media all and (min-width: 1000px) {
+  section.section.parallax h1 {
+    font-size: 160px;
+  }
+}
